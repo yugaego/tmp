@@ -22,7 +22,7 @@ In particular, note the value on the line starting with `Used backend:`
 Provide a clear and concise description of what the issue is.
 Copy/paste the exact error message: lookup for it in the **\*Messages\*** buffer. 
 
-**To Reproduce**
+**How to Reproduce**
 List the steps to reproduce the behavior.
 
 **Expected behavior**
