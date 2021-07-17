@@ -7,8 +7,6 @@ assignees: ''
 
 ---
 
-Please make sure to  before asking a question!
-
 [Feel free to remove pre-filled text **after** reading it.]
 
 **Before asking a question**
