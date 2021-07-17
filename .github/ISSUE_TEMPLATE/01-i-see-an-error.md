@@ -1,6 +1,6 @@
 ---
 name: I see an error
-about: Report errors or unexpected behavior.
+about: Report errors or unexpected behavior
 title: ''
 labels: ''
 assignees: ''
