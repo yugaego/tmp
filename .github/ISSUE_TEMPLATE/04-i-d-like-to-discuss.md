@@ -1,5 +1,5 @@
 ---
-name: I'd like to discuss something
+name: I'd like to discuss ...
 about: Blank issue template.
 title: ''
 labels: ''
