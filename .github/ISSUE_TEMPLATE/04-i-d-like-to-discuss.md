@@ -1,6 +1,6 @@
 ---
 name: I'd like to discuss ...
-about: Blank issue template.
+about: For everything else not matching other categories
 title: ''
 labels: ''
 assignees: ''
