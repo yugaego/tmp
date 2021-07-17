@@ -1,6 +1,6 @@
 ---
 name: I've got an idea
-about: Suggest an idea for this project
+about: Suggest an idea for company-mode
 title: ''
 labels: ''
 assignees: ''
