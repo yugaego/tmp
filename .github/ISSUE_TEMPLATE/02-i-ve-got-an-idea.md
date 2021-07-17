@@ -7,6 +7,8 @@ assignees: ''
 
 ---
 
+[Feel free to remove pre-filled text **after** reading it.]
+
 **Describe what you'd like to be improved.**
 A clear and concise description of the use case.
 
