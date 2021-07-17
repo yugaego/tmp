@@ -9,6 +9,8 @@ assignees: ''
 
 Please make sure to search in [existing issues](https://github.com/company-mode/company-mode/issues?q=) before filing a new report!
 
+[Feel free to remove pre-filled text **after** reading it.]
+
 **Provide output of the command `M-x company-diag`**
 Before posting, look carefully at the output of this command. You may find important clues in it for figuring out the cause of the issue.
 
