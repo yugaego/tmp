@@ -12,7 +12,8 @@ Please make sure to search in [existing issues](https://github.com/company-mode/
 [Feel free to remove pre-filled text **after** reading it.]
 
 **Provide output of the command `M-x company-diag`**
-Before posting, look carefully at the output of this command. You may find important clues in it for figuring out the cause of the issue.
+Before posting, look carefully at the output of this command.
+You may find important clues in it for figuring out the cause of the issue.
 
 In particular, note the value on the line starting with `Used backend:`
 - Compare the value to the names of the [third-party backends](https://github.com/company-mode/company-mode/wiki/Third-Party-Packages). It's highly probable that the issue should be reported to the corresponding third-party package.
@@ -33,7 +34,8 @@ If applicable, add screenshots (not huge ones, please) to help explain your prob
 
 **Provide backtrace of the error**
 If applicable, provide the backtrace of the error.
-To enable backtracing, run this command: `M-x toggle-debug-on-error` *before* reproducing the error. Copy/paste the text of the debugger’s backtrace. To disable backtracing, run the same command.
+To enable backtracing, run this command: `M-x toggle-debug-on-error` *before* reproducing the error.
+Copy/paste the text of the debugger’s backtrace. To disable backtracing, run the same command.
 
 **Additional context**
 Add any other context about the problem here.
