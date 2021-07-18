@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report errors or unexpected behavior.
+about: Report errors or unexpected behavior
 title: ''
 labels: ''
 assignees: ''
@@ -18,10 +18,10 @@ You may find important clues in it for figuring out the cause of the issue.
 In particular, note the value on the line starting with `Used backend:`
 - Compare the value to the names of the [third-party backends](https://github.com/company-mode/company-mode/wiki/Third-Party-Packages). It's highly probable that the issue should be reported to the corresponding third-party package.
 - If the value is `company-capf`, then one more clue is on the line starting with `Value of c-a-p-f:`. The issue could have been caused by a function listed there.
- 
+
 **Describe the issue**
 Provide a clear and concise description of what the issue is.
-Copy/paste the exact error message: lookup for it in the **\*Messages\*** buffer. 
+Copy/paste the exact error message: lookup for it in the **\*Messages\*** buffer.
 
 **Steps to reproduce**
 List the steps to reproduce the behavior.
