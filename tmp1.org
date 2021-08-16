@@ -1,1 +1,3 @@
 ** Hoho 3
+
+Do any change to test pinentry absence.
