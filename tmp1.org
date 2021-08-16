@@ -1,3 +1,4 @@
 ** Hoho 3
 
 Do any change to test pinentry absence.
+Now do the same from CLI.
