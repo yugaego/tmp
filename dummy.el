@@ -9,6 +9,8 @@
 
 ;; This is a dummy package.
 
+;;; Code:
+
 (defun dummy-say-hello ()
   "Greet a stranger."
   (interactive)
