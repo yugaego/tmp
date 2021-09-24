@@ -1,0 +1,94 @@
+\input texinfo   @c -*- texinfo; coding: utf-8 -*-
+@c %**start of header
+@setfilename company.info
+@settitle Company Mode User's Manual
+@set VERSION 0.9.13
+@set UPDATED September 2021
+@documentencoding UTF-8
+@documentenlanguage en
+@include docstyle.texi
+@c %**end of header
+
+@copying
+This file documents Company mode (version @value{VERSION} from
+@value{UPDATED}), a modular text completion framework for GNU Emacs.
+
+Copyright @copyright{} 2021 Free Software Foundation, Inc.
+
+@quotation
+Permission is granted to copy, distribute and/or modify this document
+under the terms of the GNU Free Documentation License, Version 1.3 or
+any later version published by the Free Software Foundation; with no
+Invariant Sections, no Front-Cover Texts and no Back-Cover Texts.  A
+copy of the license is included in the section entitled ``GNU Free
+Documentation License.''
+@end quotation
+@end copying
+
+@dircategory Emacs misc features
+@direntry
+* Company: (company).           A modular text completion framework.
+@end direntry
+
+@titlepage
+@title Company Mode User's Manual
+@subtitle for version @value{VERSION} from @value{UPDATED}
+@author Y. E. @i{yet@@ego.team}
+@author Dmitry Gutov @i{dgutov@@yandex.ru}
+@page
+@vskip 0pt plus 1filll
+@insertcopying
+@end titlepage
+
+@contents
+
+@ifnottex
+@node Top
+@top GNU Company
+@end ifnottex
+
+Company mode is an Emacs minor mode for retrieving and displaying text
+completions.  Company consists of two significant parts: modular backends and
+frontends.  The backends are responsible for retrieving completion candidates,
+which then outputted by the frontends.  The user can modify the sets and
+behavior of backends and frontends.  It is typical to use not only native
+backends provided with the Company package but also third-party backends.
+
+@ifnotex
+@insertcopying
+
+@menu
+* Getting Started::             Quick Start Guide
+* Customization::               User Options
+* Frontends::                   How to Use Frontends
+* Completion Candidates::       Search, Filter, and Transform Candidates
+* Backends::                    Backends Usage
+* Mode Line::                   Mode Line Indicators
+* Use Cases::                   Example Setups
+* Troubleshooting::             When Something Goes Wrong
+* GNU Free Documentation License::
+* Index::
+@end menu
+@end ifnottexn
+
+@node Getting Started
+@section Getting Started
+
+To use Company, activate the minor-mode @code{company-mode}.
+Use the command @kbd{company-mode} to toggle it on and off.
+Let's illustrate Forms mode with an example.  The
+mode line should indicate its presence via an indicator (@pxref{Mode
+line status}).
+
+@node Customization
+
+@node GNU Free Documentation License
+@appendix GNU Free Documentation License
+@include doclicense.texi
+
+@node Index
+@unnumbered Index
+
+@printindex cp
+
+@bye
