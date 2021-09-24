@@ -9,7 +9,7 @@
 
 ;; This is a dummy package.
 
-(defun say-hello ()
+(defun dummy-say-hello ()
   "Greet a stranger."
   (interactive)
   (message "Hello Stranger!"))
