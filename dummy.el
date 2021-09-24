@@ -11,6 +11,7 @@
 
 (defun say-hello ()
   "Greet a stranger."
+  (interactive)
   (message "Hello Stranger!"))
 
 (provide 'dummy)
