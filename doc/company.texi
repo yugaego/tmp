@@ -1,5 +1,5 @@
-\input texinfo   @c -*- texinfo; coding: utf-8 -*-
-@c %**start of header
+\input texinfo
+@comment %**start of header
 @setfilename company.info
 @settitle Company Mode User's Manual
 @set VERSION 0.9.13
@@ -7,7 +7,7 @@
 @documentencoding UTF-8
 @documentenlanguage en
 @include docstyle.texi
-@c %**end of header
+@comment %**end of header
 
 @copying
 This file documents Company mode (version @value{VERSION} from
@@ -48,11 +48,12 @@ Documentation License.''
 @end ifnottex
 
 Company mode is an Emacs minor mode for retrieving and displaying text
-completions.  Company consists of two significant parts: modular backends and
-frontends.  The backends are responsible for retrieving completion candidates,
-which then outputted by the frontends.  The user can modify the sets and
-behavior of backends and frontends.  It is typical to use not only native
-backends provided with the Company package but also third-party backends.
+completions.  Company consists of two significant parts: modular
+backends and frontends.  The backends are responsible for retrieving
+completion candidates, which then outputted by the frontends.  The
+user can modify the sets and behavior of backends and frontends.  It
+is typical to use not only native backends provided with the Company
+package but also third-party backends.
 
 @ifnotex
 @insertcopying
@@ -60,9 +61,9 @@ backends provided with the Company package but also third-party backends.
 @menu
 * Getting Started::             Quick Start Guide
 * Customization::               User Options
-* Frontends::                   How to Use Frontends
-* Completion Candidates::       Search, Filter, and Transform Candidates
-* Backends::                    Backends Usage
+* Frontends::                   Fine-tune Frontends
+* Completion Candidates::       Search, Filter, Transform Candidates
+* Backends::                    Fine-tune Backends
 * Mode Line::                   Mode Line Indicators
 * Use Cases::                   Example Setups
 * Troubleshooting::             When Something Goes Wrong
@@ -75,10 +76,9 @@ backends provided with the Company package but also third-party backends.
 @section Getting Started
 
 To use Company, activate the minor-mode @code{company-mode}.
-Use the command @kbd{company-mode} to toggle it on and off.
-Let's illustrate Forms mode with an example.  The
-mode line should indicate its presence via an indicator (@pxref{Mode
-line status}).
+Use the command @kbd{company-mode} to toggle it on and off.  The mode
+line should indicate its presence via an indicator
+(@pxref{Mode line status}).
 
 @node Customization
 
@@ -92,3 +92,8 @@ line status}).
 @printindex cp
 
 @bye
+
+@c Local Variables:
+@c mode: texinfo
+@c fill-column: 70
+@c End:
